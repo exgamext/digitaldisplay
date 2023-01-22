@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Display</title>
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+</head>
+<body class="white">
+  <!-- Title -->
+  <div class="title">Digital Display</div>
+  <a href="https://exgamext.netlify.app/" class="subtitle" target="_blank">by TTI Web Desing</a>
+
+  <!-- Display -->
+  <div class="display">
+    <!-- Unidades -->
+    <div class="number">
+      <div class="cell" id="n1">n1</div>
+      <div class="cell" id="n2">n2</div>
+      <div class="cell" id="n3">n3</div>
+      <div class="cell" id="n4">n4</div>
+      <div class="cell-disable"></div>
+      <div class="cell" id="n5">n5</div>
+      <div class="cell" id="n6">n6</div>
+      <div class="cell" id="n7">n7</div>
+      <div class="cell" id="n8">n8</div>
+      <div class="cell" id="n9">n9</div>
+      <div class="cell-disable"></div>
+      <div class="cell" id="n10">n10</div>
+      <div class="cell" id="n11">n11</div>
+      <div class="cell" id="n12">n12</div>
+      <div class="cell" id="n13">n13</div>
+    </div>
+
+    <!-- Dezenas -->
+    <div class="number">
+      <div class="cell" id="d1">d1</div>
+      <div class="cell" id="d2">d2</div>
+      <div class="cell" id="d3">d3</div>
+      <div class="cell" id="d4">d4</div>
+      <div class="cell-disable"></div>
+      <div class="cell" id="d5">d5</div>
+      <div class="cell" id="d6">d6</div>
+      <div class="cell" id="d7">d7</div>
+      <div class="cell" id="d8">d8</div>
+      <div class="cell" id="d9">d9</div>
+      <div class="cell-disable"></div>
+      <div class="cell" id="d10">d10</div>
+      <div class="cell" id="d11">d11</div>
+      <div class="cell" id="d12">d12</div>
+      <div class="cell" id="d13">d13</div>
+    </div>
+
+    <!-- Centenas -->
+    <div class="number">
+      <div class="cell" id="c1">c1</div>
+      <div class="cell" id="c2">c2</div>
+      <div class="cell" id="c3">c3</div>
+      <div class="cell" id="c4">c4</div>
+      <div class="cell-disable"></div>
+      <div class="cell" id="c5">c5</div>
+      <div class="cell" id="c6">c6</div>
+      <div class="cell" id="c7">c7</div>
+      <div class="cell" id="c8">c8</div>
+      <div class="cell" id="c9">c9</div>
+      <div class="cell-disable"></div>
+      <div class="cell" id="c10">c10</div>
+      <div class="cell" id="c11">c11</div>
+      <div class="cell" id="c12">c12</div>
+      <div class="cell" id="c13">c13</div>
+    </div>
+
+    <!-- Milhares -->
+    <div class="number">
+      <div class="cell" id="m1">m1</div>
+      <div class="cell" id="m2">m2</div>
+      <div class="cell" id="m3">m3</div>
+      <div class="cell" id="m4">m4</div>
+      <div class="cell-disable"></div>
+      <div class="cell" id="m5">m5</div>
+      <div class="cell" id="m6">m6</div>
+      <div class="cell" id="m7">m7</div>
+      <div class="cell" id="m8">m8</div>
+      <div class="cell" id="m9">m9</div>
+      <div class="cell-disable"></div>
+      <div class="cell" id="m10">m10</div>
+      <div class="cell" id="m11">m11</div>
+      <div class="cell" id="m12">m12</div>
+      <div class="cell" id="m13">m13</div>
+    </div>
+  </div>
+
+  <div class="label">Insira um número abaixo:</div>
+  <input type="text" id="entrada">
+  <div class="btns">
+    <div class="btn" onclick="Mostrar()">
+      <i class="uil uil-bolt"></i>
+      Ligar
+    </div>
+    <div class="btn" onclick="Limpar()">
+      <i class="uil uil-bolt-slash"></i>
+      Desligar
+    </div>
+  </div>
+  <div class="colors">
+    <div class="color white" onclick="Color('white')"><i class="uil uil-paint-tool"></i></div>
+    <div class="color red" onclick="Color('red')"><i class="uil uil-paint-tool"></i></div>
+    <div class="color blue" onclick="Color('blue')"><i class="uil uil-paint-tool"></i></div>
+    <div class="color green" onclick="Color('green')"><i class="uil uil-paint-tool"></i></div>
+  </div>
+
+  <!-- Script -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
